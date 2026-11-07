@@ -1,0 +1,151 @@
+{
+  "scene": "S03-garganta",
+  "noGeneratedConceptArt": true,
+  "resources": [
+    {
+      "path": "public/assets/garganta-poster.webp",
+      "author": "Josep M. Gracia",
+      "source": "https://commons.wikimedia.org/wiki/File:GD_-_Devil%27s_Throat_seen_from_the_Argentine_viewpoint_at_Iguazu_Falls,_2023.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Reducción y conversión WebP",
+      "use": "Fotografía documental; alternativa y panel HTML, no evidencia 3D",
+      "bytes": 150350,
+      "sha256": "761c66a0fd05b2694daefe1f316de4a09d837ed871b7d43bc1f95d7f68f60b8b",
+      "verified": "2026-11-07"
+    },
+    {
+      "path": "public/assets/references/gracia.webp",
+      "author": "Josep M. Gracia",
+      "source": "https://commons.wikimedia.org/wiki/File:GD_-_Devil%27s_Throat_seen_from_the_Argentine_viewpoint_at_Iguazu_Falls,_2023.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Reducción y conversión WebP",
+      "use": "Fotografía documental; alternativa y panel HTML, no evidencia 3D",
+      "bytes": 110250,
+      "sha256": "a807753af8ac3f8d7b08c5859666e3b166f918559e30086aae21c209b7eb1202",
+      "verified": "2026-11-07"
+    },
+    {
+      "path": "public/assets/references/hughes.webp",
+      "author": "P. Hughes",
+      "source": "https://commons.wikimedia.org/wiki/File:Iguazu_Falls_-_Devil%27s_Throat.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Reducción y conversión WebP",
+      "use": "Referencia documental",
+      "bytes": 252942,
+      "sha256": "69c49089b5187d8cdf031b90bf06f059aef7663042f896156080668cd94a8960",
+      "verified": "2026-11-07"
+    },
+    {
+      "path": "public/assets/water-detail.webp",
+      "author": "P. Hughes",
+      "source": "https://commons.wikimedia.org/wiki/File:Iguazu_Falls_-_Devil%27s_Throat.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Recorte de agua (3650,1400,5550,3400); gris; 1024x1024; WebP",
+      "use": "Microdetalle del material sobre geometría propia",
+      "bytes": 379386,
+      "sha256": "59ca1f60591f46b30858c04d818c9780c563fe2190793018c484889fdec37ff2",
+      "verified": "2026-11-07"
+    },
+    {
+      "path": "public/assets/references/mariordo.webp",
+      "author": "Mariordo",
+      "source": "https://commons.wikimedia.org/wiki/File:Aerial_Foz_de_Igua%C3%A7u_29_Nov_2005.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Reducción y conversión WebP",
+      "use": "Referencia documental aérea",
+      "bytes": 159028,
+      "sha256": "a17aa7b9355a64807071b58f6535f53b14df7b2e6381b31acf9821ed53c85359",
+      "verified": "2026-11-07",
+      "distribution": "public",
+      "originalIncluded": false
+    },
+    {
+      "path": "public/assets/references/leonard.webp",
+      "author": "Spouse of Leonard G.",
+      "source": "https://commons.wikimedia.org/wiki/File:ArialViewIquazuFallsDevilsThroat.JPG",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:ArialViewIquazuFallsDevilsThroat.JPG",
+      "changes": "Reducción y conversión WebP",
+      "use": "Referencia documental aérea complementaria",
+      "bytes": 323638,
+      "sha256": "29b2fb238403fcb992d4cd7725e567ba8c01f14bdf31ba4bfe8d9118e5978a0c",
+      "verified": "2026-11-07"
+    },
+    {
+      "path": "public/assets/audio/garganta.opus",
+      "author": "JosepMGracia",
+      "source": "https://commons.wikimedia.org/wiki/File:GD_-_Devil%27s_Throat_from_the_Argentine_viewpoint_at_Iguazu_Falls,_2023.webm",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Extracción del audio; filtros 55 Hz/10.5 kHz; normalización -23 LUFS objetivo; Opus/AAC 96 kbps",
+      "use": "Única grabación ambiental de H2",
+      "bytes": 120118,
+      "sha256": "d5770ab6a46e34a2f02442155c2dffffcefdd571e1b58dc439eb767ab483ec19",
+      "verified": "2026-11-07"
+    },
+    {
+      "path": "public/assets/audio/garganta.m4a",
+      "author": "JosepMGracia",
+      "source": "https://commons.wikimedia.org/wiki/File:GD_-_Devil%27s_Throat_from_the_Argentine_viewpoint_at_Iguazu_Falls,_2023.webm",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Extracción del audio; filtros 55 Hz/10.5 kHz; normalización -23 LUFS objetivo; Opus/AAC 96 kbps",
+      "use": "Única grabación ambiental de H2",
+      "bytes": 172624,
+      "sha256": "f83d4d18db36e734c21fda22843cb2e4ddc30a1af60bd15cc768be0b508a83c8",
+      "verified": "2026-11-07"
+    },
+    {
+      "path": "public/assets/noise.webp",
+      "author": "Iguazú Experience H2",
+      "source": "scripts/prepare-assets.py",
+      "license": "Recurso original del proyecto",
+      "licenseUrl": "",
+      "changes": "Ruido determinista; semilla 214; canales de datos",
+      "use": "Materiales procedurales; no fotografía",
+      "bytes": 291186,
+      "sha256": "5c8512cc577b7509ca36b2279500c9e43342f1bc4647322d4175a7f5a8397d53",
+      "verified": "2026-11-07"
+    },
+    {
+      "path": "public/assets/fonts/fraunces.woff",
+      "author": "The Fraunces Project Authors",
+      "source": "https://github.com/undercasetype/Fraunces",
+      "license": "SIL OFL 1.1",
+      "licenseUrl": "public/assets/fonts/fraunces-OFL.txt",
+      "changes": "Subconjunto latino; conversión WOFF",
+      "use": "Tipografía local",
+      "bytes": 25948,
+      "sha256": "e94af531770289c5a76ea5404fac38188796c22419ff73dcb7ec691325f8cc6a",
+      "verified": "2026-11-07"
+    },
+    {
+      "path": "public/assets/fonts/manrope.woff",
+      "author": "The Manrope Project Authors",
+      "source": "https://github.com/googlefonts/manrope",
+      "license": "SIL OFL 1.1",
+      "licenseUrl": "public/assets/fonts/manrope-OFL.txt",
+      "changes": "Subconjunto latino; conversión WOFF",
+      "use": "Tipografía local",
+      "bytes": 21528,
+      "sha256": "3a4bb3c3412f98f1f14c26bcf255887052a2ea6fe9befc0e18d65483240d4518",
+      "verified": "2026-11-07"
+    }
+  ],
+  "privateOriginals": [
+    {
+      "file": "mariordo-aerial.jpg",
+      "distribution": "private-backup-only",
+      "sha256": "69cd5bb6c99179ed1c1b36a45e764f776fba09125d90ed0d555b6029d2ce885b",
+      "source": "https://commons.wikimedia.org/wiki/File:Aerial_Foz_de_Igua%C3%A7u_29_Nov_2005.jpg",
+      "author": "Mariordo",
+      "license": "CC BY-SA 4.0",
+      "note": "Original preserved with metadata and copyright; excluded from public Git history. License verified by project owner."
+    }
+  ]
+}

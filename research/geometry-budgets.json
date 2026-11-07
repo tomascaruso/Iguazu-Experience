@@ -1,0 +1,23 @@
+{
+  "high": {
+    "dpr": 1.5,
+    "trianglesBeforeCulling": 146140,
+    "trees": 600,
+    "particles": 2100,
+    "mist": 32
+  },
+  "balanced": {
+    "dpr": 1.15,
+    "trianglesBeforeCulling": 77928,
+    "trees": 220,
+    "particles": 1200,
+    "mist": 22
+  },
+  "low": {
+    "dpr": 0.85,
+    "trianglesBeforeCulling": 72624,
+    "trees": 180,
+    "particles": 550,
+    "mist": 14
+  }
+}

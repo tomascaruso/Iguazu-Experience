@@ -1,0 +1,8 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import type {BufferGeometry} from 'three';
+import {createFlowGeometry,flowPoint,START,END,canopyGeometry,rockGeometry,createFernGeometry,createRiverGeometry,createMistGeometry} from '../src/components/scene/geometry.ts';
+import {qualityProfiles} from '../src/lib/experience/quality.ts';
+const triangles=(g:BufferGeometry)=>(g.index?.count??g.attributes.position.count)/3;
+test('generated geometry is finite, indexed safely, and falls toward the gorge',()=>{const g=createFlowGeometry(144,62);const p=g.attributes.position;for(const x of p.array)assert.ok(Number.isFinite(x));for(const index of g.index!.array)assert.ok(index<p.count);for(const theta of [START,0,Math.PI/2,Math.PI,END])assert.ok(flowPoint(theta,1).y<flowPoint(theta,.32).y-75);g.dispose()});
+test('submitted triangle estimate respects high and mobile budgets',()=>{const canopy=canopyGeometry(),rock=rockGeometry(),fern=createFernGeometry(),river=createRiverGeometry();for(const [tier,q] of Object.entries(qualityProfiles)){const water=createFlowGeometry(q.arcSegments,q.flowSegments),wall=createFlowGeometry(Math.floor(q.arcSegments*.7),28,true);const sum=triangles(water)+triangles(wall)+q.trees*triangles(canopy)+113*triangles(rock)+24*triangles(fern)+triangles(river)+1368+q.mist*2;assert.ok(sum<(tier==='high'?180000:80000),`${tier}: ${sum} triangles`);water.dispose();wall.dispose()}[canopy,rock,fern,river].forEach(g=>g.dispose())});
+test('mist density follows profile, without per-puff draw calls',()=>{const g=createMistGeometry(22);assert.equal(g.instanceCount,22);assert.equal(g.attributes.aOffset.count,22);g.dispose()});
